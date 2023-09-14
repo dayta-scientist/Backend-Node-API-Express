@@ -17,6 +17,7 @@
     "extends": "standard"
   },
   "dependencies": {
+    "@hapi/boom": "^10.0.1",
     "express": "^4.18.2"
   }
 }
