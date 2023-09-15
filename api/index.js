@@ -21,9 +21,9 @@ const options = {
 }
 app.use(cors(options))
 
-app.get('/', (req, res) => {
-  res.send({ message: 'Mi first server' })
-})
+// app.get('/', (req, res) => {
+//   res.send({ message: 'Mi first server' })
+// })
 
 routerApi(app)
 
